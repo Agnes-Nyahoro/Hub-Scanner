@@ -1,0 +1,77 @@
+{
+  "project_info": {
+    "project_number": "461136968383",
+    "firebase_url": "https://easy-music-android-c9190.firebaseio.com",
+    "project_id": "easy-music-android-c9190",
+    "storage_bucket": "easy-music-android-c9190.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:461136968383:android:16c0e4708ec44f3d0aa40a",
+        "android_client_info": {
+          "package_name": "com.bvh.dev.music"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "461136968383-jh20dv0tv9mvkjvaidshu4gd8rfe601d.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.bvh.dev.music",
+            "certificate_hash": "d26a23e820a2944e3544090185349c06ced3bd10"
+          }
+        },
+        {
+          "client_id": "461136968383-p388h4gvq1e5m38gelrb260nfknjr6pj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDSwaz0wnwaOsJ53NazobDXbbrgByqJyw0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "461136968383-p388h4gvq1e5m38gelrb260nfknjr6pj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:461136968383:android:04aace8564b6ac2d0aa40a",
+        "android_client_info": {
+          "package_name": "com.pdf.scanner.queenscanner"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "461136968383-p388h4gvq1e5m38gelrb260nfknjr6pj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDSwaz0wnwaOsJ53NazobDXbbrgByqJyw0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "461136968383-p388h4gvq1e5m38gelrb260nfknjr6pj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

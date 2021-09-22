@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    android:background="#fff"
+    android:paddingTop="5dp"
+    android:paddingBottom="5dp">
+
+    <ImageView
+        android:id="@+id/imgThumb"
+        android:layout_width="120dp"
+        android:layout_height="80dp"
+        android:layout_margin="5dp"
+        android:scaleType="centerCrop" />
+
+    <TextView
+        android:id="@+id/tvName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/imgThumb"
+        android:background="@color/white"
+        android:paddingLeft="6dp"
+        android:paddingTop="16dp"
+        android:paddingRight="6dp"
+        android:text="New Document"
+        android:textColor="@color/black"
+        android:textSize="16sp" />
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvName"
+        android:layout_toRightOf="@+id/imgThumb"
+        android:background="@color/white">
+
+        <TextView
+            android:id="@+id/tvDate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toLeftOf="@+id/tvPage"
+            android:paddingLeft="6dp"
+            android:paddingTop="6dp"
+            android:paddingBottom="6dp"
+            android:text="Dec 05,2018, 09:26"
+            android:textColor="@color/gray"
+            android:textSize="13sp" />
+
+        <TextView
+            android:id="@+id/tvPage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="2dp"
+            android:background="@drawable/bg_page"
+            android:paddingLeft="8dp"
+            android:paddingRight="8dp"
+            android:text="1"
+            android:textSize="13sp" />
+    </RelativeLayout>
+</RelativeLayout>

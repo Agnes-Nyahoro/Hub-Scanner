@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Pictures</string>
+    <string name="done">Done</string>
+    <string name="no_image">No image</string>
+    <string name="toolbar_title">Choose images</string>
+    <string name="selected_image">Selected image</string>
+    <string name="max_count_msg">" %1$d selected images already"</string>
+    <string name="min_count_msg">" You have to choose %1$d images"</string>
+    <string name="focusing">" focusing / flash ... wait a minute"</string>
+    <string name="progress_title">Progressing...</string>
+    <string name="default_directory" translatable="false">Pictures</string>
+    <string-array name="tab_titles">
+        <item>Scanner Gallery</item>
+    </string-array>
+</resources>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory android:title="@string/next_cloud_catalog">
+
+        <SwitchPreference
+            android:defaultValue="true"
+            android:key="prefSwitchOnNextCloudImage"
+            android:title="@string/switch_next_cloud_on_title_image" />
+
+        <SwitchPreference
+            android:defaultValue="true"
+            android:key="prefSwitchOnNextCloudPdf"
+            android:title="@string/switch_next_cloud_on_title_pdf" />
+
+        <EditTextPreference
+            android:defaultValue="@string/server_default"
+            android:key="prefServer"
+            android:title="@string/server" />
+
+        <EditTextPreference
+            android:defaultValue="@string/username_default"
+            android:key="prefUsername"
+            android:title="@string/username" />
+
+        <EditTextPreference
+            android:defaultValue="@string/password_default"
+            android:key="prefPassword"
+            android:title="@string/password" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/email_catalog">
+
+        <SwitchPreference
+            android:defaultValue="false"
+            android:key="prefSwitchOnEmailImage"
+            android:title="@string/switch_email_on_title_image" />
+
+        <SwitchPreference
+            android:defaultValue="false"
+            android:key="prefSwitchOnEmailPdf"
+            android:title="@string/switch_email_on_title_pdf" />
+
+        <EditTextPreference
+            android:key="prefMailTo"
+            android:summary="@string/mail_to_des"
+            android:title="@string/mail_to_title" />
+
+        <EditTextPreference
+            android:defaultValue="@string/email_subject"
+            android:key="prefMailSubject"
+            android:summary="@string/subject_des"
+            android:title="@string/subject" />
+
+        <EditTextPreference
+            android:defaultValue="@string/email_body"
+            android:key="prefMailBody"
+            android:summary="@string/body_des"
+            android:title="@string/body" />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

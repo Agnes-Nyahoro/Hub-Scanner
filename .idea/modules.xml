@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/QueenScanner.iml" filepath="$PROJECT_DIR$/QueenScanner.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/QueenScanner.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/QueenScanner.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/dynamicgrid/QueenScanner.dynamicgrid.iml" filepath="$PROJECT_DIR$/.idea/modules/dynamicgrid/QueenScanner.dynamicgrid.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/openCVLibrary310/QueenScanner.openCVLibrary310.iml" filepath="$PROJECT_DIR$/.idea/modules/openCVLibrary310/QueenScanner.openCVLibrary310.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/photo-editor-sdk-2.0.27/QueenScanner.photo-editor-sdk-2.0.27.iml" filepath="$PROJECT_DIR$/.idea/modules/photo-editor-sdk-2.0.27/QueenScanner.photo-editor-sdk-2.0.27.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/tedpicker/QueenScanner.tedpicker.iml" filepath="$PROJECT_DIR$/.idea/modules/tedpicker/QueenScanner.tedpicker.iml" />
+    </modules>
+  </component>
+</project>

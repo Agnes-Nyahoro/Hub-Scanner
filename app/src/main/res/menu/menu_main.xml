@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_settings"
+        android:icon="@drawable/ic_settings"
+        android:orderInCategory="2"
+        android:title="@string/action_settings"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/action_settings0"
+        android:orderInCategory="2"
+        android:title="@string/action_settings"
+        android:visible="false"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_rate_app"
+        android:orderInCategory="2"
+        android:title="@string/action_rate_app"
+        android:visible="false"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_share_app"
+        android:orderInCategory="2"
+        android:title="@string/action_share_app"
+        android:visible="false"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_more_app"
+        android:orderInCategory="2"
+        android:title="@string/action_more_app"
+        android:visible="false"
+        app:showAsAction="never" />
+</menu>

@@ -1,0 +1,28 @@
+
+<resources>
+    <string name="app_name">Pictures</string>
+
+    <string name="progress_title">Tratamiento..</string>
+
+    <string name="done">Hecho</string>
+
+    <string-array name="tab_titles">
+        <item>Galería</item>
+    </string-array>
+
+
+    <string name="toolbar_title">Opción de imagen</string>
+    <string name="no_image">Sin imágen</string>
+
+    <string name="selected_image">Imagen seleccionada para crear PDF</string>
+
+
+    <string name="max_count_msg">%1$d imágenes seleccionadas ya</string>
+    <string name="min_count_msg">Usted tiene que elegir %1$d imágenes</string>
+
+    <string name="focusing">focusing/flash…espera un minuto</string>
+
+
+
+
+</resources>

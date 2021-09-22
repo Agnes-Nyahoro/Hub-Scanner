@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#293d52</color>
+    <color name="colorPrimaryDark">#192736</color>
+    <color name="colorAccent">#14ba9b</color>
+
+    <color name="black_overlay">#66000000</color>
+    <color name="bg_doc">#6000</color>
+
+    <color name="gray">#757575</color>
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+    <color name="transparent">#00000000</color>
+
+    <color name="purple">#9C27B0</color>
+    <color name="orange">#FF9800</color>
+    <color name="teal">#009688</color>
+    <color name="light_blue">#03A9F4</color>
+
+    <color name="blue_200">#FF90CAF9</color>
+    <color name="blue_500">#FF2196F3</color>
+    <color name="blue_700">#FF1976D2</color>
+
+    <color name="polygonViewCircleBackground">#90e5f8ff</color>
+
+
+    <color name="process_color1">#ced0d6</color>
+    <color name="process_color2">#9c9fa6</color>
+    <color name="process_color3">#747579</color>
+    <color name="process_color4">#4a4c4f</color>
+    <color name="process_color5">#202021</color>
+    <color name="main_select_background">#6634475c</color>
+
+    <color name="color_main_type">#535252</color>
+
+</resources>

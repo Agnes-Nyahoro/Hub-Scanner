@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory
+        android:persistent="false"
+        android:title="@string/basic_settings">
+
+        <PreferenceScreen
+            android:summary="@string/automatic_tagging_summary"
+            android:title="@string/automatic_tagging">
+            <EditTextPreference
+                android:name="tag_rocket"
+                android:defaultValue="rocket"
+                android:key="tag_rocket"
+                android:title="Rocket" />
+            <EditTextPreference
+                android:name="tag_gift"
+                android:defaultValue="gift"
+                android:key="tag_gift"
+                android:title="Gift" />
+            <EditTextPreference
+                android:name="tag_tv"
+                android:defaultValue="tv"
+                android:key="tag_tv"
+                android:title="TV" />
+            <EditTextPreference
+                android:name="tag_bell"
+                android:defaultValue="bell"
+                android:key="tag_bell"
+                android:title="Bell" />
+            <EditTextPreference
+                android:name="tag_game"
+                android:defaultValue="game"
+                android:key="tag_game"
+                android:title="Game" />
+            <EditTextPreference
+                android:name="tag_star"
+                android:defaultValue="star"
+                android:key="tag_star"
+                android:title="Star" />
+            <EditTextPreference
+                android:name="tag_magnet"
+                android:defaultValue="magnet"
+                android:key="tag_magnet"
+                android:title="Magnet" />
+        </PreferenceScreen>
+
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="match_aspect"
+            android:summary="@string/match_aspect_summary"
+            android:title="@string/match_aspect" />
+
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="bug_rotate"
+            android:summary="@string/bug_rotate_summary"
+            android:title="@string/bug_rotate" />
+
+        <EditTextPreference
+            android:name="storage_folder"
+            android:defaultValue="CamScanner"
+            android:key="storage_folder"
+            android:summary="@string/storage_folder_summary"
+            android:title="@string/storage_folder" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:persistent="false"
+        android:title="@string/feedback_and_contributions">
+
+        <!--<Preference
+            android:persistent="false"
+            android:summary="@string/github_project_summary"
+            android:title="@string/github_project">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://github.com/ctodobom/OpenNoteScanner" />
+        </Preference>-->
+
+        <Preference
+            android:persistent="false"
+            android:summary="@string/send_message_summary"
+            android:title="@string/send_message">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="mailto:contact.gpaddy@gmail.com" />
+        </Preference>
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

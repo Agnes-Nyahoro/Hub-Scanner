@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.todobom.queenscanner">
+
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.camera.autofocus"
+        android:required="false" />
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:requestLegacyExternalStorage="true"
+        android:name="com.MainApplication"
+        android:allowBackup="true"
+        android:hardwareAccelerated="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:ignore="GoogleAppIndexingWarning">
+<!--        <meta-data-->
+<!--            android:name="com.google.android.gms.ads.APPLICATION_ID"-->
+<!--            android:value="@string/admod_app_id"/>-->
+        <!-- HUNGDH -->
+        <activity
+            android:name="com.gpaddy.hungdh.camscanner.MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="com.google.android.gms.ads.AdActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
+            android:noHistory="true" />
+
+        <activity
+            android:name="com.facebook.ads.AudienceNetworkActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:noHistory="true" />
+
+        <meta-data
+            android:name="com.google.android.gms.ads.AD_MANAGER_APP"
+            android:value="true" />
+
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="${applicationId}.provider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_paths" />
+        </provider>
+
+
+        <activity
+            android:name="com.gpaddy.hungdh.camscanner.MyPDFActivity"
+            android:label="@string/my_pdf"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name="com.gpaddy.hungdh.camscanner.FilterImageActivity"
+            android:label="@string/filter_image"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name="com.gpaddy.hungdh.camscanner.KnifeActivity"
+            android:theme="@style/AppTheme"
+            android:windowSoftInputMode="adjustResize|stateHidden" />
+        <activity
+            android:name="com.gpaddy.hungdh.camscanner.MySettingsActivity"
+            android:label="@string/action_settings"
+            android:theme="@style/AppTheme" />
+
+        <!-- DOCUMENT SCANNER -->
+        <activity
+            android:name="com.gpaddyv1.queenscanner.activities.SimpleDocumentScannerActivity"
+            android:label="@string/from_gallery"
+            android:theme="@style/AppTheme" />
+
+        <!-- IMAGE TO PDF -->
+        <activity
+            android:name="com.gun0912.tedpicker.ImagePickerActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme_picker" />
+
+        <!-- OPEN NOTE SCANNER -->
+        <activity
+            android:name=".OpenNoteScannerActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/title_activity_open_note_scanner"
+            android:screenOrientation="portrait"
+            android:theme="@style/FullscreenTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+
+            <!--
+            <intent-filter>
+                <action android:name="android.media.action.IMAGE_CAPTURE" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            -->
+        </activity>
+        <activity
+            android:name=".GalleryGridActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/my_gallery"
+            android:screenOrientation="portrait"
+            android:theme="@style/FullscreenTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".FullScreenViewActivity"
+            android:theme="@style/FullscreenTheme" />
+        <activity
+            android:name=".SettingsActivity"
+            android:label="@string/settings"
+            android:theme="@style/AppTheme" />
+
+        <!-- PHOTO EDITOR -->
+
+        <activity android:name="com.gpaddyv1.queenscanner.process.view.ProcessImageActivity" />
+        <activity android:name="com.joshuabutton.queenscanner.sign.view.SignActivity" />
+        <activity android:name="com.joshuabutton.queenscanner.process.view.CombineBitMapActivity" />
+        <activity android:name="com.gpaddyv1.queenscanner.document.DocumentActivity" />
+        <activity android:name="com.joshuabutton.queenscanner.handle.HandleActivity" />
+        <activity android:name="com.gpaddy.hungdh.listdoc.DocsActivity" />
+        <activity
+            android:name=".AccountActivity"
+            android:theme="@style/AppTheme.NoActionBar1">
+
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,233 @@
+<resources>
+    <string name="app_name">Hub Scanner</string>
+    <!--ads-->
+    <string name="id_banner_google">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="id_interstitial_google">ca-app-pub-3940256099942544/1033173712</string>
+    <string name="id_app_google">ca-app-pub-3940256099942544~3347511713</string>
+
+    <string name="id_interstitial_facebook">id test</string>
+    <string name="id_banner_face">id test</string>
+
+
+    //------------------------------------------------------------//
+    <string name="camera">From camera</string>
+    <string name="from_gallery">From gallery</string>
+    <string name="from_camera">From camera</string>
+    <string name="filter_image">Filter image</string>
+    <string name="original">Original</string>
+    <string name="gray_mode">Grayscale mode</string>
+    <string name="color_mode">Color mode</string>
+    <string name="my_gallery">Document scanner</string>
+    <string name="my_pdf">PDF manager</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="action_share_app">Share app</string>
+    <string name="action_more_app">More apps</string>
+    <string name="action_create_pdf">Create PDF</string>
+    <string name="action_rate_app">Rate the app</string>
+
+    <string name="title">PDF Actions</string>
+
+    <array name="items">
+        <item>Open file</item>
+        <item>Delete file</item>
+        <item>Rename file</item>
+        <item>Print file</item>
+        <item>Share file</item>
+    </array>
+
+    <array name="itemIds">
+        <item>abrir</item>
+        <item>borrar</item>
+        <item>renombrar</item>
+        <item>imprimir</item>
+        <item>compartir</item>
+    </array>
+
+    <string name="language">Language</string>
+    <string name="choose">Select</string>
+
+    <string-array name="language_name">
+        <item>English</item>
+        <item>Vietnamese</item>
+        <item>Chinese</item>
+        <item>Korean</item>
+        <item>Japanese</item>
+        <item>German</item>
+        <item>Español</item>
+        <item>French</item>
+        <item>Indonesian</item>
+        <item>Portuguese</item>
+    </string-array>
+
+    <string-array name="language_code">
+        <item>eng</item>
+        <item>life</item>
+        <item>chi_sim</item>
+        <item>disease</item>
+        <item>jpn</item>
+        <item>He gave</item>
+        <item>spa</item>
+        <item>from</item>
+        <item>ind</item>
+        <item>by</item>
+    </string-array>
+
+    <string-array name="language_link">
+        <item>https://raw.githubusercontent.com/tesseract-ocr/tessdata/master/eng.traineddata</item>
+        <item>https://raw.githubusercontent.com/tesseract-ocr/tessdata/master/vie.traineddata</item>
+        <item>https://raw.githubusercontent.com/tesseract-ocr/tessdata/master/chi_sim.traineddata</item>
+        <item>https://raw.githubusercontent.com/tesseract-ocr/tessdata/master/kor.traineddata</item>
+        <item>https://raw.githubusercontent.com/tesseract-ocr/tessdata/master/jpn.traineddata</item>
+        <item>https://raw.githubusercontent.com/tesseract-ocr/tessdata/master/deu.traineddata</item>
+        <item>https://raw.githubusercontent.com/tesseract-ocr/tessdata/master/spa.traineddata</item>
+        <item>https://raw.githubusercontent.com/tesseract-ocr/tessdata/master/fra.traineddata</item>
+        <item>https://raw.githubusercontent.com/tesseract-ocr/tessdata/master/ind.traineddata</item>
+        <item>https://raw.githubusercontent.com/tesseract-ocr/tessdata/master/por.traineddata</item>
+    </string-array>
+
+
+    <string name="menu_undo">Undo</string>
+    <string name="menu_redo">Redo</string>
+    <string name="menu_share">Share</string>
+
+
+    <string name="dialog_title">Insertar link</string>
+    <string name="dialog_edit_hint">http(s)://</string>
+    <string name="dialog_button_ok">OK</string>
+    <string name="dialog_button_cancel">Cancel</string>
+
+
+    <string name="toast_bold">Bold font</string>
+    <string name="toast_italic">Italic</string>
+    <string name="toast_underline">Underlined</string>
+    <string name="toast_strikethrough">Striped</string>
+    <string name="toast_bullet">Bullet</string>
+    <string name="toast_quote">Quoted</string>
+    <string name="toast_insert_link">Insertar link</string>
+    <string name="toast_format_clear">Clear format</string>
+
+
+    <string name="title_activity_open_note_scanner" translatable="false">Cargo Scans</string>
+    <string name="title_activity_gallery">Gallery</string>
+
+    <string name="title_activity_full_image">Scanned image viewer</string>
+    <string name="images_scanned">Scanned images</string>
+    <string name="action_share">Share</string>
+    <string name="action_edit">Edit</string>
+    <string name="action_delete">Delete</string>
+    <string name="confirm_title">Confirm</string>
+    <string name="confirm_delete_text">Are you sure you want to delete this image?</string>
+    <string name="answer_yes">Yes</string>
+    <string name="answer_no">No</string>
+    <string name="confirm_delete_multiple_text">Are you sure you want to delete the selected images?</string>
+    <string name="share_snackbar">Share images by:</string>
+    <string name="action_about">About</string>
+    <string name="about_filename">about.md</string>
+    <string name="install_opencv">Instalar OpenCV Manager</string>
+    <string name="confirm_install_opencv">Do you want to download OpenCV Manager from GitHub?</string>
+    <string name="answer_cancel">Cancel</string>
+    <string name="downloading">Downloading</string>
+    <string name="downloading_opencv">Descargando OpenCV Manager</string>
+    <string name="scanningToast">Searching for a document \ nClick to scan the complete image</string>
+    <string name="colorMode">Color mode</string>
+    <string name="bwMode">B</string>
+    <string name="autoMode">Automatic mode</string>
+    <string name="manualMode">Manual mode</string>
+    <string name="share_app">Share this App</string>
+    <string name="share_app_using">Share the link by means of</string>
+    <string name="share_app_body">"Take a look at this app that scans documents from the camera for Operators:"</string>
+    <string name="share_app_subject">Great app to scan travel documents for Operators</string>
+    <string name="settings">Adjustments</string>
+    <string name="basic_settings">Basic settings</string>
+    <string name="automatic_tagging">Automatic labeling</string>
+    <string name="automatic_tagging_summary">Define the automatic labels to be applied in scans marked using the special template</string>
+    <string name="match_aspect">Adjust to the preview aspect ratio</string>
+    <string name="match_aspect_summary">Most devices have different aspect ratio with respect to the preview, this setting will select the highest image resolution that matches the aspect ratio of the pre-display</string>
+    <string name="bug_rotate">Rotate the image 180º</string>
+    <string name="bug_rotate_summary">This setting configures everything in the best way</string>
+    <string name="usage_stats">Usage statistics</string>
+    <string name="usage_stats_summary">Send several usage statistics to the developer. Content data will not be sent</string>
+    <string name="send_message">Send Message</string>
+    <string name="send_message_summary">Send message to the developer</string>
+    <string name="stats_optin_title">Usage statistics</string>
+    <string name="stats_optin_text">Do you want to allow this App to send anonymous usage statistics to the developer? \ N \ nYou can change this at any time in the settings screen.</string>
+    <string name="answer_later">After</string>
+    <string name="ask_install_opencv">To work, this app requires that OpenCV Manager services, which have not yet been installed.</string>
+    <string name="googleplay">Google Play</string>
+    <string name="githubdownload">Direct download</string>
+    <string name="activateunknown">Go to Settings</string>
+    <string name="messageactivateunknown">Google Play is not available and installation from unknown sources is not enabled, please go to the settings and activate it.</string>
+    <string name="github_project">Project in GitHub</string>
+    <string name="github_project_summary">You can help improve this application with your feedback</string>
+    <string name="donate">A cup of coffee</string>
+    <string name="donate_summary">If you find this app useful, please write us</string>
+    <string name="telegram">Group in telegram</string>
+    <string name="telegram_summary">I chatted about the project in Telegram</string>
+    <string name="feedback_and_contributions">Feedback and contributions</string>
+    <string name="bitcoin_summary">regards</string>
+    <string name="dogecoin_summary" translatable="false">Wow, esta app, muy útil</string>
+    <string name="paypal_summary">Many payment methods accepted</string>
+    <string name="filterModeOn">Image processor started</string>
+    <string name="filterModeOff">Image processor off</string>
+    <string name="action_tag">Etqueta</string>
+    <string name="storage_folder">Storage folder</string>
+    <string name="storage_folder_summary">Sets where the scanned files should be stored</string>
+
+    <string name="google_analytics_id">UA-89718316-1</string>
+
+    <string name="banner_ad_unit_id">ca-app-pub-3940256099942544/630097811</string>
+    <string name="interstitials_ad_unit_id">ca-app-pub-3940256099942544/103317371</string>
+
+    <string name="dialog_pdf_enter_file_name">Enter file name</string>
+    <string name="page_size">Page size</string>
+    <string name="image_scale">Scale of image</string>
+
+
+    <string name="file_not_found">File not Found!</string>
+    <string name="share">Share using ...</string>
+
+
+    <string name="no_image_selected">No images selected</string>
+    <string name="creating_pdf">Creation of PDF</string>
+    <string name="ok">Create</string>
+    <string name="cancel">Cancel</string>
+    <string name="error_blank_name">You can not make the name blank!</string>
+    <string name="please_wait">Please wait</string>
+    <string name="creating_pdf_des">Creation of PDF. This may take a while.</string>
+    <string name="creating_pdf_success">Creating PDF is a success!</string>
+
+
+    <string name="no_pdf">There are no PDF files now</string>
+
+
+    <string name="next_cloud_catalog">Automatic upload to the cloud</string>
+    <string name="switch_next_cloud_on_title_image">Upload scanned image to your CARGOcloud result account</string>
+    <string name="switch_next_cloud_on_title_pdf">Upload generated PDF</string>
+    <string name="server">Server</string>
+    <string name="server_default" translatable="false">https://afn.cargoscans.com</string>
+    <string name="username">Username</string>
+    <string name="username_default" translatable="false">operadores</string>
+    <string name="password">Password</string>
+    <string name="password_default" translatable="false">1Operadores2</string>
+
+    <string name="email_catalog">Automatic email</string>
+    <string name="switch_email_on_title_image">Send scanned image by email</string>
+    <string name="switch_email_on_title_pdf">Send PDF generated by email</string>
+    <string name="mail_to_title">Mail to</string>
+    <string name="mail_to_des">Destination email</string>
+    <string name="subject">Affair</string>
+    <string name="subject_des">Email subject</string>
+    <string name="email_subject" translatable="false">Cargo Scans</string>
+    <string name="body">Body</string>
+    <string name="body_des">Email body</string>
+    <string name="email_body" translatable="false">Backup</string>
+
+    <string name="toast_sending">You have started the file upload</string>
+    <string name="toast_sent">The upload of the file has finished</string>
+    <string name="gpaddy_contact">contact.codergalaxy@gmail.com</string>
+    <string name="cm_hint_email">Email</string>
+    <!-- Generated by Automatic String Resource Translation
+--><!--          https://asrt.gluege.boerde.de
+-->
+</resources>

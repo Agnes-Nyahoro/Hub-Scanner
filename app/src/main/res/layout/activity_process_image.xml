@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context="com.joshuabutton.queenscanner.process.view.ProcessImageActivity">
+
+
+    <!--<jp.co.cyberagent.android.gpuimage.GPUImageView-->
+    <!--android:id="@+id/imgView"-->
+    <!--android:visibility="visible"-->
+    <!--android:layout_margin="5dp"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_gravity="center"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_above="@+id/layout_process">-->
+
+    <!--</jp.co.cyberagent.android.gpuimage.GPUImageView>-->
+    <ImageView
+        android:id="@+id/imgView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/linear0"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_gravity="center"
+        android:layout_margin="5dp"
+        android:adjustViewBounds="true">
+
+    </ImageView>
+
+    <LinearLayout
+        android:id="@+id/linear0"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_above="@+id/rcView"
+        android:background="@color/colorPrimaryDark">
+
+        <ImageView
+            android:id="@+id/img0"
+            android:layout_width="76dp"
+            android:layout_height="56dp"
+            android:layout_gravity="center_vertical"
+            android:padding="15dp"
+            android:src="@drawable/i_contrast" />
+
+        <SeekBar
+            android:id="@+id/sbFilter"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginRight="20dp"
+            android:padding="8dp"
+            android:progress="50" />
+    </LinearLayout>
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rcView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/layout_bot"
+        android:layout_centerVertical="true"
+        android:background="@color/colorPrimaryDark"
+        android:padding="15dp">
+
+    </androidx.recyclerview.widget.RecyclerView>
+
+    <!--<RelativeLayout-->
+    <!--android:id="@+id/layout_process"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="?android:attr/actionBarSize"-->
+    <!--android:layout_above="@+id/layout_bot"-->
+    <!--android:background="@color/colorPrimaryDark">-->
+
+    <!--<LinearLayout-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_centerInParent="true"-->
+    <!--android:layout_centerVertical="true"-->
+    <!--android:orientation="horizontal">-->
+
+    <!--<ImageView-->
+    <!--android:id="@+id/process5"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:src="@drawable/process5" />-->
+
+    <!--<ImageView-->
+    <!--android:id="@+id/process4"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_marginLeft="30dp"-->
+    <!--android:src="@drawable/process4" />-->
+
+    <!--<ImageView-->
+    <!--android:id="@+id/process3"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_marginLeft="30dp"-->
+
+    <!--android:src="@drawable/process3" />-->
+
+    <!--<ImageView-->
+    <!--android:id="@+id/process2"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_marginLeft="30dp"-->
+
+    <!--android:src="@drawable/process2" />-->
+
+    <!--<ImageView-->
+    <!--android:id="@+id/process1"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_marginLeft="30dp"-->
+    <!--android:src="@drawable/process1" />-->
+
+    <!--</LinearLayout>-->
+    <!--</RelativeLayout>-->
+
+    <RelativeLayout
+        android:id="@+id/layout_bot"
+        android:layout_width="match_parent"
+        android:layout_height="?android:attr/actionBarSize"
+        android:layout_alignParentBottom="true"
+        android:background="@color/colorPrimary">
+
+        <ImageView
+            android:id="@+id/imgBack"
+            android:layout_width="56dp"
+            android:layout_height="match_parent"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="2dp"
+            android:padding="10dp"
+            android:src="@drawable/ic_back" />
+
+        <ImageView
+            android:id="@+id/imgRotate"
+            android:layout_width="56dp"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"
+            android:layout_margin="2dp"
+            android:layout_marginLeft="2dp"
+            android:padding="12dp"
+            android:src="@drawable/ic_rotate" />
+
+
+        <ImageView
+            android:id="@+id/imgSave"
+            android:layout_width="56dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="2dp"
+            android:padding="12dp"
+            android:src="@drawable/sign_done" />
+    </RelativeLayout>
+</RelativeLayout>

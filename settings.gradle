@@ -1,0 +1,4 @@
+include ':app', ':photo-editor-sdk-2.0.27', ':dynamicgrid'
+include ':tedpicker'
+
+include ':openCVLibrary310'

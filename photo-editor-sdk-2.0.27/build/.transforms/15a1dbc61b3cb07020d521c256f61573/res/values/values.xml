@@ -1,0 +1,431 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="imgly_background">#000000</color>
+    <color name="imgly_button_color">#00000000</color>
+    <color name="imgly_button_disabled_color">#66333333</color>
+    <color name="imgly_button_pressed_color">#FF203E61</color>
+    <color name="imgly_editor_background">#FF111111</color>
+    <color name="imgly_editor_header_background">#FF1B1B1B</color>
+    <color name="imgly_editor_overlay_panel_background">#CC1B1B1B</color>
+    <color name="imgly_editor_text_color">@color/imgly_text_color</color>
+    <color name="imgly_editor_text_color_secondary">#66FFFFFF</color>
+    <color name="imgly_editor_toolbar_background">#FF2B2B2B</color>
+    <color name="imgly_preview_background">@color/imgly_background</color>
+    <color name="imgly_preview_footer_background">#73000000</color>
+    <color name="imgly_preview_header_background">#27000000</color>
+    <color name="imgly_preview_text_color">@color/imgly_text_color</color>
+    <color name="imgly_slider_progress_color">#FFFFFFFF</color>
+    <color name="imgly_slider_thumb_color">#FFFFFFFF</color>
+    <color name="imgly_slider_thumb_disabled_color">#66FFFFFF</color>
+    <color name="imgly_slider_thumb_pressed_color">#FFEEEEEE</color>
+    <color name="imgly_slider_track_color">#66FFFFFF</color>
+    <color name="imgly_text_color">#FFFFFF</color>
+    <color name="transparent">#00000000</color>
+    <declare-styleable name="BorderRadius"><attr format="dimension" name="borderRadius"/></declare-styleable>
+    <declare-styleable name="ColorPickerPreference"><attr format="boolean" name="alphaSlider"/><attr format="boolean" name="lightnessSlider"/><attr format="integer" name="density"/><attr format="integer" name="initialColor"/><attr format="enum" name="wheelType">
+			<enum name="FLOWER" value="0"/>
+			<enum name="CIRCLE" value="1"/>
+		</attr><attr format="reference" name="lightnessSliderView"/><attr format="reference" name="alphaSliderView"/><attr format="reference|string" name="pickerTitle"/><attr format="reference|string" name="pickerButtonOk"/><attr format="reference|string" name="pickerButtonCancel"/></declare-styleable>
+    <declare-styleable name="RelativeBlurLayout"><attr format="dimension" name="blurRadius"/><attr format="integer" name="blurDownSample"/><attr format="reference" name="blurSource"/><attr format="boolean" name="blurRootSource"/><attr format="boolean" name="blurUpdateAtStart"/><attr format="boolean" name="blurUpdateOnInvalidate"/></declare-styleable>
+    <declare-styleable name="SubsamplingScaleImageView"><attr format="reference" name="src"/><attr format="string" name="assetName"/><attr format="boolean" name="panEnabled"/><attr format="boolean" name="zoomEnabled"/><attr format="boolean" name="quickScaleEnabled"/><attr format="color" name="tileBackgroundColor"/></declare-styleable>
+    <dimen name="default_padding_side">10dp</dimen>
+    <dimen name="default_preview_height">40dp</dimen>
+    <dimen name="default_preview_image_height">36dp</dimen>
+    <dimen name="default_slider_bar_height">4dp</dimen>
+    <dimen name="default_slider_handler_radius">10dp</dimen>
+    <dimen name="default_slider_height">36dp</dimen>
+    <dimen name="default_slider_margin">4dp</dimen>
+    <drawable name="imgly_icon_option_selected_background_color">@drawable/imgly_icon_option_selected_color</drawable>
+    <drawable name="imgly_icon_option_selected_background_color_bg">@drawable/imgly_icon_option_selected_color_bg</drawable>
+    <string name="app_name">Img.ly PhotoEditor</string>
+    <string formatted="false" name="app_version_hint">Your version of the img.ly SDK is outdated. You are using version %s the latest available stable version is %s Please consider updating.</string>
+    <string name="imgly_brush_option_backwards">Undo</string>
+    <string name="imgly_brush_option_bring_to_front">To Front</string>
+    <string name="imgly_brush_option_color">Color</string>
+    <string name="imgly_brush_option_hardness">Hardness</string>
+    <string name="imgly_brush_option_size">Size</string>
+    <string name="imgly_camera_preview_flash_auto">AUTO</string>
+    <string name="imgly_camera_preview_flash_off">OFF</string>
+    <string name="imgly_camera_preview_flash_on">ON</string>
+    <string name="imgly_camera_preview_hdr_off">HDR OFF</string>
+    <string name="imgly_camera_preview_hdr_on">HDR ON</string>
+    <string name="imgly_color_filter_name_ad1920">1920</string>
+    <string name="imgly_color_filter_name_ancient">Ancient</string>
+    <string name="imgly_color_filter_name_bleached">Bleached</string>
+    <string name="imgly_color_filter_name_bleachedblue">Bleached Blue</string>
+    <string name="imgly_color_filter_name_blues">Blues</string>
+    <string name="imgly_color_filter_name_blueshadows">Blue Shadows</string>
+    <string name="imgly_color_filter_name_breeze">Breeze</string>
+    <string name="imgly_color_filter_name_bw">B&amp;W</string>
+    <string name="imgly_color_filter_name_celsius">Celsius</string>
+    <string name="imgly_color_filter_name_chest">Chest</string>
+    <string name="imgly_color_filter_name_classic">Classic</string>
+    <string name="imgly_color_filter_name_colorful">Gysmo</string>
+    <string name="imgly_color_filter_name_cool">Cool</string>
+    <string name="imgly_color_filter_name_cottoncandy">Cotton Candy</string>
+    <string name="imgly_color_filter_name_creamy">Creamy</string>
+    <string name="imgly_color_filter_name_default">NONE</string>
+    <string name="imgly_color_filter_name_eighties">Eighties</string>
+    <string name="imgly_color_filter_name_elder">Elder</string>
+    <string name="imgly_color_filter_name_evening">Evening</string>
+    <string name="imgly_color_filter_name_fall">Fall</string>
+    <string name="imgly_color_filter_name_fixie">Fixie</string>
+    <string name="imgly_color_filter_name_food">Food</string>
+    <string name="imgly_color_filter_name_fridge">Fridge</string>
+    <string name="imgly_color_filter_name_front">Front</string>
+    <string name="imgly_color_filter_name_glam">Glam</string>
+    <string name="imgly_color_filter_name_gobblin">Gobblin</string>
+    <string name="imgly_color_filter_name_highcarb">High Carp</string>
+    <string name="imgly_color_filter_name_highcontrast">High Contrast</string>
+    <string name="imgly_color_filter_name_identity">Identiy</string>
+    <string name="imgly_color_filter_name_k1">K1</string>
+    <string name="imgly_color_filter_name_k2">K2</string>
+    <string name="imgly_color_filter_name_k6">K6</string>
+    <string name="imgly_color_filter_name_kdynamic">K Dynamic</string>
+    <string name="imgly_color_filter_name_keen">Keen</string>
+    <string name="imgly_color_filter_name_lenin">Lenin</string>
+    <string name="imgly_color_filter_name_litho">Litho</string>
+    <string name="imgly_color_filter_name_lomo">Lomo</string>
+    <string name="imgly_color_filter_name_lomo100">Lomo 100</string>
+    <string name="imgly_color_filter_name_lucid">Lucid</string>
+    <string name="imgly_color_filter_name_mellow">Mellow</string>
+    <string name="imgly_color_filter_name_neat">Neat</string>
+    <string name="imgly_color_filter_name_nogreen">No Green</string>
+    <string name="imgly_color_filter_name_orchid">Orchid</string>
+    <string name="imgly_color_filter_name_pale">Pale</string>
+    <string name="imgly_color_filter_name_pitched">Pitched</string>
+    <string name="imgly_color_filter_name_plate">Plate</string>
+    <string name="imgly_color_filter_name_pola669">Pola 669</string>
+    <string name="imgly_color_filter_name_polasx">Pola SX</string>
+    <string name="imgly_color_filter_name_pro400">Pro 400</string>
+    <string name="imgly_color_filter_name_quozi">Quozi</string>
+    <string name="imgly_color_filter_name_sepiahigh">Sepiahigh</string>
+    <string name="imgly_color_filter_name_settled">Settled</string>
+    <string name="imgly_color_filter_name_seventies">Seventies</string>
+    <string name="imgly_color_filter_name_sin">Sin</string>
+    <string name="imgly_color_filter_name_soft">Soft</string>
+    <string name="imgly_color_filter_name_steel">Steel</string>
+    <string name="imgly_color_filter_name_summer">Summer</string>
+    <string name="imgly_color_filter_name_sunset">Sunset</string>
+    <string name="imgly_color_filter_name_tender">Tender</string>
+    <string name="imgly_color_filter_name_texas">Texas</string>
+    <string name="imgly_color_filter_name_twilight">Twilight</string>
+    <string name="imgly_color_filter_name_winter">Winter</string>
+    <string name="imgly_color_filter_name_x400">X400</string>
+    <string name="imgly_color_picker_hint">Color Value</string>
+    <string name="imgly_crop_name_16_9">16:9</string>
+    <string name="imgly_crop_name_2_3">2:3</string>
+    <string name="imgly_crop_name_3_2">3:2</string>
+    <string name="imgly_crop_name_3_4">3:4</string>
+    <string name="imgly_crop_name_4_3">4:3</string>
+    <string name="imgly_crop_name_9_16">9:16</string>
+    <string name="imgly_crop_name_custom">Custom</string>
+    <string name="imgly_crop_name_square">1:1</string>
+    <string name="imgly_focus_name_linear">Linear</string>
+    <string name="imgly_focus_name_none">NONE</string>
+    <string name="imgly_focus_name_radial">Radial</string>
+    <string name="imgly_frame_name_none">No Frame</string>
+    <string name="imgly_orientation_name_ccw">Left</string>
+    <string name="imgly_orientation_name_cw">Right</string>
+    <string name="imgly_orientation_name_flip_h">Flip H</string>
+    <string name="imgly_orientation_name_flip_v">Flip V</string>
+    <string name="imgly_photo_editor_accept">Done</string>
+    <string name="imgly_photo_editor_cancel">Cancel</string>
+    <string name="imgly_photo_editor_cancel_image_content">Do you really want to discard the image?</string>
+    <string name="imgly_photo_editor_cancel_image_no">No</string>
+    <string name="imgly_photo_editor_cancel_image_title">Close Editor?</string>
+    <string name="imgly_photo_editor_cancel_image_yes">Yes</string>
+    <string formatted="false" name="imgly_photo_editor_export_progress">Exporting image %s.</string>
+    <string name="imgly_photo_editor_export_progress_unknown">Exporting image…</string>
+    <string name="imgly_photo_editor_save">Save</string>
+    <string name="imgly_photo_editor_title">Editor</string>
+    <string name="imgly_sticker_name_glasses_nerd">Nerd Glasses</string>
+    <string name="imgly_sticker_name_glasses_normal">Glasses</string>
+    <string name="imgly_sticker_name_glasses_shutter_green">Shutter Glasses</string>
+    <string name="imgly_sticker_name_glasses_shutter_yellow">Shutter Glasses</string>
+    <string name="imgly_sticker_name_glasses_sun">Sun Glasses</string>
+    <string name="imgly_sticker_name_hat_cap">Cape</string>
+    <string name="imgly_sticker_name_hat_party">Party Hat</string>
+    <string name="imgly_sticker_name_hat_sherrif">Sherrif</string>
+    <string name="imgly_sticker_name_hat_zylinder">Zylinder</string>
+    <string name="imgly_sticker_name_heart">Heart</string>
+    <string name="imgly_sticker_name_mustache1">Mustage</string>
+    <string name="imgly_sticker_name_mustache2">Mustage</string>
+    <string name="imgly_sticker_name_mustache3">Mustage</string>
+    <string name="imgly_sticker_name_mustache_long">Mustage</string>
+    <string name="imgly_sticker_name_pipe">Pipe</string>
+    <string name="imgly_sticker_name_snowflake">Snowflake</string>
+    <string name="imgly_sticker_name_star">Star</string>
+    <string name="imgly_sticker_name_sticker">Sticker</string>
+    <string name="imgly_sticker_option_delete">Delete</string>
+    <string name="imgly_sticker_option_flip_h">@string/imgly_orientation_name_flip_h</string>
+    <string name="imgly_sticker_option_flip_v">@string/imgly_orientation_name_flip_v</string>
+    <string name="imgly_sticker_option_to_front">To Front</string>
+    <string name="imgly_text_option_bg_color">BG Color</string>
+    <string name="imgly_text_option_color">Color</string>
+    <string name="imgly_text_option_delete">Delete</string>
+    <string name="imgly_text_option_flip_h">@string/imgly_orientation_name_flip_h</string>
+    <string name="imgly_text_option_flip_v">@string/imgly_orientation_name_flip_v</string>
+    <string name="imgly_text_option_font">Font</string>
+    <string name="imgly_text_option_to_front">To Front</string>
+    <string name="imgly_text_panel_edit_text_placeholder">Your text</string>
+    <string name="imgly_tool_name_adjust">Adjust</string>
+    <string name="imgly_tool_name_adjust_brightness">Brightness</string>
+    <string name="imgly_tool_name_adjust_contrast">Contrast</string>
+    <string name="imgly_tool_name_adjust_saturation">Saturation</string>
+    <string name="imgly_tool_name_brush">Brush</string>
+    <string name="imgly_tool_name_brush_color">Brush Color</string>
+    <string name="imgly_tool_name_crop">Crop</string>
+    <string name="imgly_tool_name_filter">Filter</string>
+    <string name="imgly_tool_name_focus">Focus</string>
+    <string name="imgly_tool_name_frame">Frame</string>
+    <string name="imgly_tool_name_magic">Magic</string>
+    <string name="imgly_tool_name_orientation">Orientation</string>
+    <string name="imgly_tool_name_sticker">Sticker</string>
+    <string name="imgly_tool_name_sticker_options">Sticker Options</string>
+    <string name="imgly_tool_name_text">Text</string>
+    <string name="imgly_tool_name_text_add">Text</string>
+    <string name="imgly_tool_name_text_color">Text Color</string>
+    <string name="imgly_tool_name_text_font">Font</string>
+    <string name="imgly_tool_name_text_options">Text Options</string>
+    <style name="Imgly" parent="@android:style/Theme.NoTitleBar.Fullscreen"/>
+    <style name="Imgly.Button" parent="Imgly"/>
+    <style name="Imgly.Editor" parent="Imgly"/>
+    <style name="Imgly.Editor.Header" parent="Imgly.Editor">
+        <item name="android:background">@color/imgly_editor_header_background</item>
+    </style>
+    <style name="Imgly.Editor.Header.Button" parent="Imgly.Button">
+        <item name="android:textColor">@color/imgly_editor_text_color</item>
+        <item name="android:background">@drawable/imgly_button</item>
+        <item name="android:paddingLeft">0dp</item>
+        <item name="android:paddingRight">0dp</item>
+        <item name="android:layout_width">48dp</item>
+        <item name="android:layout_height">48dp</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:layout_marginTop">0dp</item>
+        <item name="android:layout_marginLeft">12dp</item>
+        <item name="android:layout_marginRight">12dp</item>
+        <item name="android:layout_marginBottom">0dp</item>
+    </style>
+    <style name="Imgly.Editor.Header.Button.AcceptButton" parent="Imgly.Editor.Header.Button">
+        <item name="android:drawableRight">@drawable/imgly_icon_confirm</item>
+    </style>
+    <style name="Imgly.Editor.Header.Button.CancelButton" parent="Imgly.Editor.Header.Button">
+        <item name="android:drawableRight">@drawable/imgly_icon_cancel</item>
+    </style>
+    <style name="Imgly.Editor.Header.Button.SaveButton" parent="Imgly.Editor.Header.Button"/>
+    <style name="Imgly.Editor.Header.Title" parent="Imgly.Editor">
+        <item name="android:text">@string/imgly_photo_editor_title</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/imgly_editor_text_color</item>
+        <item name="android:layout_centerInParent">true</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+    <style name="Imgly.Editor.Preview" parent="Imgly.Editor">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_marginBottom">80dp</item>
+        <item name="android:background">@color/imgly_editor_background</item>
+    </style>
+    <style name="Imgly.Editor.Toolbar" parent="Imgly.Editor"/>
+    <style name="Imgly.Editor.Toolbar.Container" parent="Imgly.Editor">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:background">@color/imgly_editor_toolbar_background</item>
+    </style>
+    <style name="Imgly.Editor.Toolbar.Panels" parent="Imgly.Editor.Toolbar">
+        <item name="android:textColor">@color/imgly_editor_text_color</item>
+    </style>
+    <style name="Imgly.Editor.Toolbar.Panels.Adjust" parent="Imgly.Editor.Toolbar.Panels"/>
+    <style name="Imgly.Editor.Toolbar.Panels.Crop" parent="Imgly.Editor.Toolbar.Panels"/>
+    <style name="Imgly.Editor.Toolbar.Panels.Crop.ItemIcon" parent="Imgly.Editor.Toolbar.Panels.default.ItemIcon"/>
+    <style name="Imgly.Editor.Toolbar.Panels.Crop.ItemLabel" parent="Imgly.Editor.Toolbar.Panels.default.ItemLabel"/>
+    <style name="Imgly.Editor.Toolbar.Panels.Crop.ItemSelectBackground" parent="Imgly.Editor.Toolbar.Panels.default.ItemSelectBackground"/>
+    <style name="Imgly.Editor.Toolbar.Panels.Divider" parent="Imgly.Editor.Toolbar.Panels">
+        <item name="android:layout_width">1dp</item>
+        <item name="android:layout_height">46dp</item>
+        <item name="android:background">#13FFFFFF</item>
+        <item name="android:layout_marginLeft">14dp</item>
+        <item name="android:layout_marginRight">14dp</item>
+        <item name="android:layout_centerVertical">true</item>
+    </style>
+    <style name="Imgly.Editor.Toolbar.Panels.Filter" parent="Imgly.Editor.Toolbar.Panels"/>
+    <style name="Imgly.Editor.Toolbar.Panels.Filter.ItemIcon" parent="Imgly.Editor.Toolbar.Panels.default.ItemIcon"/>
+    <style name="Imgly.Editor.Toolbar.Panels.Filter.ItemLabel" parent="Imgly.Editor.Toolbar.Panels.default.ItemLabel">
+        <item name="android:textSize">11dp</item>
+        <item name="android:textColor">#FFFFFFFF</item>
+        <item name="android:paddingBottom">4dp</item>
+    </style>
+    <style name="Imgly.Editor.Toolbar.Panels.Filter.ItemSelectBackground" parent="Imgly.Editor.Toolbar.Panels.default.ItemSelectBackground"/>
+    <style name="Imgly.Editor.Toolbar.Panels.Filter.ItemSelectOverlay" parent="Imgly.Editor.Toolbar.Panels.default.ItemSelectOverlay">
+        <item name="android:background">@drawable/imgly_item_filter_overlay</item>
+    </style>
+    <style name="Imgly.Editor.Toolbar.Panels.Focus" parent="Imgly.Editor.Toolbar.Panels"/>
+    <style name="Imgly.Editor.Toolbar.Panels.OptionsContainer" parent="Imgly.Editor">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">80dp</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:background">@color/imgly_editor_toolbar_background</item>
+    </style>
+    <style name="Imgly.Editor.Toolbar.Panels.Rotate" parent="Imgly.Editor.Toolbar.Panels"/>
+    <style name="Imgly.Editor.Toolbar.Panels.Rotate.ItemIcon" parent="Imgly.Editor.Toolbar.Panels.default.ItemIcon"/>
+    <style name="Imgly.Editor.Toolbar.Panels.Rotate.ItemLabel" parent="Imgly.Editor.Toolbar.Panels.default.ItemLabel"/>
+    <style name="Imgly.Editor.Toolbar.Panels.Sticker" parent="Imgly.Editor.Toolbar.Panels"/>
+    <style name="Imgly.Editor.Toolbar.Panels.Sticker.ItemIcon" parent="Imgly.Editor.Toolbar.Panels.default.ItemIcon"/>
+    <style name="Imgly.Editor.Toolbar.Panels.Sticker.ItemLabel" parent="Imgly.Editor.Toolbar.Panels.default.ItemLabel"/>
+    <style name="Imgly.Editor.Toolbar.Panels.Text" parent="Imgly.Editor.Toolbar.Panels"/>
+    <style name="Imgly.Editor.Toolbar.Panels.Text.Color" parent="Imgly.Editor.Toolbar.Panels"/>
+    <style name="Imgly.Editor.Toolbar.Panels.Text.Color.ColorPicker" parent="Imgly.Editor.Toolbar.Panels">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+    <style name="Imgly.Editor.Toolbar.Panels.Text.Color.ItemIcon" parent="Imgly.Editor.Toolbar.Panels.default.ItemIcon"/>
+    <style name="Imgly.Editor.Toolbar.Panels.Text.Color.ItemSelectOverlay" parent="Imgly.Editor.Toolbar.Panels.default.ItemSelectOverlay">
+        <item name="android:layout_centerInParent">true</item>
+        <item name="android:background">@drawable/imgly_item_color_overlay</item>
+    </style>
+    <style name="Imgly.Editor.Toolbar.Panels.Text.Font" parent="Imgly.Editor.Toolbar.Panels"/>
+    <style name="Imgly.Editor.Toolbar.Panels.Text.Font.ItemLabel" parent="Imgly.Editor">
+        <item name="android:lines">1</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:padding">0dp</item>
+        <item name="android:textSize">12dp</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_marginTop">0dp</item>
+        <item name="android:layout_marginBottom">4dp</item>
+        <item name="android:textColor">@color/imgly_editor_text_color_secondary</item>
+    </style>
+    <style name="Imgly.Editor.Toolbar.Panels.Text.Font.ItemText" parent="Imgly.Editor">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">47dp</item>
+        <item name="android:padding">0dp</item>
+        <item name="android:textSize">30dp</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_marginTop">0dp</item>
+        <item name="android:layout_marginBottom">0dp</item>
+        <item name="android:textColor">@color/imgly_editor_text_color</item>
+        <item name="android:text">Ag</item>
+    </style>
+    <style name="Imgly.Editor.Toolbar.Panels.Text.FontVertical" parent="Imgly.Editor.Toolbar">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="Imgly.Editor.Toolbar.Panels.Text.FontVertical.Container" parent="Imgly.Editor.Toolbar">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:background">#992B2B2B</item>
+    </style>
+    <style name="Imgly.Editor.Toolbar.Panels.Text.FontVertical.ItemLabel" parent="Imgly.Editor">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:padding">0dp</item>
+        <item name="android:textSize">12dp</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_marginTop">1dp</item>
+        <item name="android:layout_marginBottom">0dp</item>
+        <item name="android:textColor">@color/imgly_editor_text_color_secondary</item>
+    </style>
+    <style name="Imgly.Editor.Toolbar.Panels.Text.FontVertical.ItemText" parent="Imgly.Editor">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:padding">0dp</item>
+        <item name="android:textSize">30dp</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_marginTop">9dp</item>
+        <item name="android:layout_marginBottom">0dp</item>
+        <item name="android:textColor">@color/imgly_editor_text_color</item>
+    </style>
+    <style name="Imgly.Editor.Toolbar.Panels.Text.ItemIcon" parent="Imgly.Editor.Toolbar.Panels.default.ItemIcon"/>
+    <style name="Imgly.Editor.Toolbar.Panels.Text.ItemLabel" parent="Imgly.Editor.Toolbar.Panels.default.ItemLabel"/>
+    <style name="Imgly.Editor.Toolbar.Panels.Tool" parent="Imgly.Editor.Toolbar.Panels"/>
+    <style name="Imgly.Editor.Toolbar.Panels.Tool.ItemIcon" parent="Imgly.Editor.Toolbar.Panels.default.ItemIcon"/>
+    <style name="Imgly.Editor.Toolbar.Panels.Tool.ItemLabel" parent="Imgly.Editor.Toolbar.Panels.default.ItemLabel"/>
+    <style name="Imgly.Editor.Toolbar.Panels.default.ItemIcon" parent="Imgly.Editor.Toolbar.Panels">
+        <item name="android:layout_gravity">center</item>
+        <item name="android:padding">0dp</item>
+    </style>
+    <style name="Imgly.Editor.Toolbar.Panels.default.ItemLabel" parent="Imgly.Editor.Toolbar.Panels">
+        <item name="android:textSize">11dp</item>
+        <item name="android:paddingTop">0dp</item>
+        <item name="android:paddingBottom">0dp</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:lines">1</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:gravity">center</item>
+        <!--TODO:item name="android:textColor">@color/imgly_editor_text_color</item-->
+        <item name="android:textColor">#53FFFFFF</item>
+    </style>
+    <style name="Imgly.Editor.Toolbar.Panels.default.ItemSelectBackground" parent="Imgly.Editor.Toolbar.Panels">
+        <item name="android:visibility">gone</item>
+    </style>
+    <style name="Imgly.Editor.Toolbar.Panels.default.ItemSelectOverlay" parent="Imgly.Editor.Toolbar.Panels"/>
+    <style name="Imgly.Preview" parent="Imgly"/>
+    <style name="Imgly.Preview.Footer" parent="Imgly.Preview">
+        <item name="android:background">@color/imgly_preview_header_background</item>
+    </style>
+    <style name="Imgly.Preview.Header" parent="Imgly.Preview">
+        <item name="android:paddingLeft">10dp</item>
+        <item name="android:paddingRight">10dp</item>
+        <item name="android:background">@color/imgly_preview_header_background</item>
+    </style>
+    <style name="Imgly.Preview.Header.Button" parent="Imgly.Button">
+        <item name="android:paddingTop">4dp</item>
+        <item name="android:paddingBottom">4dp</item>
+        <item name="android:paddingLeft">4dp</item>
+        <item name="android:paddingRight">4dp</item>
+        <item name="android:textColor">@color/imgly_preview_text_color</item>
+        <item name="android:background">@drawable/imgly_button_click_overlay</item>
+    </style>
+    <style name="Imgly.Preview.Header.Button.FlashButton" parent="Imgly.Preview.Header.Button">
+        <item name="android:drawableLeft">@drawable/imgly_icon_flash</item>
+        <item name="android:drawablePadding">10dp</item>
+    </style>
+    <style name="Imgly.Preview.Header.Button.HDRButton" parent="Imgly.Preview.Header.Button">
+        <item name="android:textOn">@string/imgly_camera_preview_hdr_on</item>
+        <item name="android:textOff">@string/imgly_camera_preview_hdr_off</item>
+    </style>
+    <style name="Imgly.Preview.Header.Button.SwitchCameraButton" parent="Imgly.Preview.Header.Button">
+
+        <item name="android:src">@drawable/imgly_icon_cam_switch</item>
+        <item name="android:scaleType">center</item>
+    </style>
+    <style name="Imgly.SeekBar" parent="Imgly.Editor.Toolbar.Panels">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">16dp</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_marginLeft">24dp</item>
+        <item name="android:layout_marginRight">24dp</item>
+        <item name="android:layout_centerInParent">true</item>
+        <item name="android:paddingTop">0dp</item>
+        <item name="android:paddingLeft">8dp</item>
+        <item name="android:paddingRight">8dp</item>
+        <item name="android:paddingBottom">0dp</item>
+        <item name="android:thumb">@drawable/imgly_slider_thumb</item>
+        <item name="android:background">@drawable/imgly_slider_background</item>
+        <item name="android:progressDrawable">@drawable/imgly_slider_progress</item>
+        <item name="android:indeterminateDrawable">@drawable/imgly_slider_progress</item>
+    </style>
+    <style name="Imgly.SeekBarContainer" parent="Imgly.Editor.Toolbar.Panels">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">48dp</item>
+        <item name="android:background">#B3000000</item>
+    </style>
+    <style name="TransparentDialog" parent="android:Theme.Dialog">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:backgroundDimEnabled">false</item>
+        <item name="android:visibility">gone</item>
+    </style>
+</resources>

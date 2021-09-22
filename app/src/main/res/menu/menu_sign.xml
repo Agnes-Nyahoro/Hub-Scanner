@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/signSize"
+        android:icon="@drawable/sign_width"
+        android:title=""
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/signClear"
+        android:icon="@drawable/sign_clear"
+        android:title=""
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/signColor"
+        android:icon="@drawable/sign_color"
+        android:title=""
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/signDone"
+        android:icon="@drawable/sign_done"
+        app:showAsAction="always"
+        android:title="" />
+
+</menu>
